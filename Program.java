@@ -9,8 +9,13 @@ public class Program {
         bst.Insert(27);
         bst.Insert(13);
         bst.Insert(50);
-        bst.Insert(3);
-        bst.Insert(9);
+        bst.Insert(1);
         bst.Display();
+        bst.Insert(9);
+        bst.Delete((3));
+        bst.Display();
+        System.out.println("count #" + bst.countNumberOfNodes());
+        System.out.println("5 " + bst.Search(5));
+        System.out.println("0 " + bst.Search(0));
     }
 }
