@@ -158,7 +158,7 @@ public class BinarySearchTree {
         return RecursiveCountNumberOfLeaves(root);
     }
 
-    public int RecursiveCountNumberOfNodes(Node root){
+    private int RecursiveCountNumberOfNodes(Node root){
         if (root == null) {
             return 0;
         }

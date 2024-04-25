@@ -17,5 +17,6 @@ public class Program {
         System.out.println("count #" + bst.countNumberOfNodes());
         System.out.println("5 " + bst.Search(5));
         System.out.println("0 " + bst.Search(0));
+        System.out.println(bst.CountNumberOfLeaves());
     }
 }
